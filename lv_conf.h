@@ -20,8 +20,8 @@
  *====================*/
 
 /* Maximal horizontal and vertical resolution to support by the library.*/
-#define LV_HOR_RES_MAX          (480)
-#define LV_VER_RES_MAX          (320)
+#define LV_HOR_RES_MAX          (800)
+#define LV_VER_RES_MAX          (480)
 
 /* Color depth:
  * - 1:  1 byte per pixel
@@ -29,7 +29,7 @@
  * - 16: RGB565
  * - 32: ARGB8888
  */
-#define LV_COLOR_DEPTH     16
+#define LV_COLOR_DEPTH     32
 
 /* Swap the 2 bytes of RGB565 color.
  * Useful if the display has a 8 bit interface (e.g. SPI)*/
@@ -329,16 +329,16 @@ typedef void * lv_indev_drv_user_data_t;            /*Type of user data in the i
 /* Montserrat fonts with bpp = 4
  * https://fonts.google.com/specimen/Montserrat  */
 #define LV_FONT_MONTSERRAT_12    0
-#define LV_FONT_MONTSERRAT_14    0
+#define LV_FONT_MONTSERRAT_14    1
 #define LV_FONT_MONTSERRAT_16    1
 #define LV_FONT_MONTSERRAT_18    0
 #define LV_FONT_MONTSERRAT_20    0
-#define LV_FONT_MONTSERRAT_22    0
+#define LV_FONT_MONTSERRAT_22    1
 #define LV_FONT_MONTSERRAT_24    0
 #define LV_FONT_MONTSERRAT_26    0
-#define LV_FONT_MONTSERRAT_28    0
+#define LV_FONT_MONTSERRAT_28    1
 #define LV_FONT_MONTSERRAT_30    0
-#define LV_FONT_MONTSERRAT_32    0
+#define LV_FONT_MONTSERRAT_32    1
 #define LV_FONT_MONTSERRAT_34    0
 #define LV_FONT_MONTSERRAT_36    0
 #define LV_FONT_MONTSERRAT_38    0

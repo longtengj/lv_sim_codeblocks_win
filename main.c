@@ -13,6 +13,7 @@
 #include "lvgl/lvgl.h"
 #include "lv_drivers/win_drv.h"
 #include "lv_examples/src/lv_demo_widgets/lv_demo_widgets.h"
+#include "lv_examples/lv_examples.h"
 
 #include <windows.h>
 
@@ -58,7 +59,8 @@ int main(int argc, char** argv)
     lv_disp_set_default(lv_windows_disp);
 
     /*Run the v7 demo*/
-    lv_demo_widgets();
+    //lv_demo_widgets();
+    lv_demo_printer();
 
 #if WIN32
     while(!lv_win_exit_flag) {

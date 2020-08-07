@@ -88,36 +88,36 @@
 #define USE_MONITOR         1
 #endif
 #if USE_MONITOR
-#  define MONITOR_HOR_RES     LV_HOR_RES
-#  define MONITOR_VER_RES     LV_VER_RES
+#define MONITOR_HOR_RES     LV_HOR_RES
+#define MONITOR_VER_RES     LV_VER_RES
 
 /* Scale window by this factor (useful when simulating small screens) */
-#  define MONITOR_ZOOM        1
+#define MONITOR_ZOOM        1
 
 /* Used to test true double buffering with only address changing.
  * Set LV_VDB_SIZE = (LV_HOR_RES * LV_VER_RES) and  LV_VDB_DOUBLE = 1 and LV_COLOR_DEPTH = 32" */
-#  define MONITOR_DOUBLE_BUFFERED 0
+#define MONITOR_DOUBLE_BUFFERED 0
 
 /*Eclipse: <SDL2/SDL.h>    Visual Studio: <SDL.h>*/
-#  define MONITOR_SDL_INCLUDE_PATH    <SDL2/SDL.h>
+#define MONITOR_SDL_INCLUDE_PATH    <SDL2/SDL.h>
 
 /*Different rendering might be used if running in a Virtual machine*/
-#  define MONITOR_VIRTUAL_MACHINE 0
+#define MONITOR_VIRTUAL_MACHINE 0
 
 /*Open two windows to test multi display support*/
-#  define MONITOR_DUAL            0
+#define MONITOR_DUAL            0
 #endif
 
 /*-----------------------------------
  *  Native Windows (including mouse)
  *----------------------------------*/
 #ifndef USE_WINDOWS
-#  define USE_WINDOWS       1
+#define USE_WINDOWS       1
 #endif
 
 #if USE_WINDOWS
-#  define WINDOW_HOR_RES      480
-#  define WINDOW_VER_RES      320
+#define WINDOW_HOR_RES      800
+#define WINDOW_VER_RES      480
 #endif
 
 /*----------------

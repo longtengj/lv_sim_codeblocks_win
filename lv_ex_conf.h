@@ -46,6 +46,7 @@
 #define LV_DEMO_SLIDE_SHOW 0    /*Automatically switch between tabs*/
 #endif
 
+#define LV_USE_DEMO_PRINTER 1
 /*MCU and memory usage monitoring*/
 #define LV_USE_SYSMON      1
 

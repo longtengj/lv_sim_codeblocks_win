@@ -12,13 +12,21 @@
 				<Option type="0" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-std=c99" />
+					<Add option="-m32" />
 					<Add option="-g" />
 					<Add option="-DLV_CONF_INCLUDE_SIMPLE=1" />
+					<Add option="-DWIN32=0" />
+					<Add directory="D:/Program Files/CodeBlocks/SDL2-2.0.12/i686-w64-mingw32/include/SDL2" />
 					<Add directory="." />
 					<Add directory="lvgl" />
+					<Add directory="D:/Program Files/CodeBlocks/SDL2-2.0.12/x86_64-w64-mingw32/include" />
 				</Compiler>
 				<Linker>
+					<Add option="-m32" />
+					<Add option="-lmingw32 -lSDL2main -lSDL2" />
 					<Add library="mingw32" />
+					<Add directory="D:/Program Files/CodeBlocks/SDL2-2.0.12/i686-w64-mingw32/bin" />
 				</Linker>
 			</Target>
 			<Target title="Release">
