@@ -7172,7 +7172,8 @@
 	"lvgl/lvgl.h"
 	"lv_demo_benchmark.h"
 
-1596763239 d:\lvgl\lv_sim_codeblocks_win\lv_examples\lv_examples.h
+1596765582 d:\lvgl\lv_sim_codeblocks_win\lv_examples\lv_examples.h
+	"lvgl.h"
 	"../lvgl/lvgl.h"
 	"lv_ex_conf.h"
 	"../lv_ex_conf.h"
@@ -7187,17 +7188,17 @@
 
 1596763474 d:\lvgl\lv_sim_codeblocks_win\lv_ex_conf.h
 
-1596731319 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_ex_get_started\lv_ex_get_started.h
+1596765583 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_ex_get_started\lv_ex_get_started.h
 
-1596731319 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_ex_style\lv_ex_style.h
+1596765583 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_ex_style\lv_ex_style.h
 
-1596731319 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_ex_widgets\lv_ex_widgets.h
+1596765583 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_ex_widgets\lv_ex_widgets.h
 
 1596731319 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_widgets\lv_demo_widgets.h
 
 1596731319 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_benchmark\lv_demo_benchmark.h
 
-1596731319 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_stress\lv_demo_stress.h
+1596765582 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_stress\lv_demo_stress.h
 
 1596731319 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_keypad_encoder\lv_demo_keypad_encoder.h
 
@@ -8119,7 +8120,7 @@
 	"lv_examples/lv_examples.h"
 	<windows.h>
 
-1593526181 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\lv_demo_printer.h
+1596765582 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\lv_demo_printer.h
 	"../../lv_examples.h"
 
 1593526181 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\images\lv_demo_printer_icon_bright.c
