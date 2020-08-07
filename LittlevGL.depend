@@ -6263,10 +6263,10 @@
 	"lvgl.h"
 	"lvgl/lvgl.h"
 
-1596764389 d:\lvgl\lv_sim_codeblocks_win\lv_drv_conf.h
+1596769396 d:\lvgl\lv_sim_codeblocks_win\lv_drv_conf.h
 	"lv_conf.h"
 
-1596763677 d:\lvgl\lv_sim_codeblocks_win\lv_conf.h
+1596769700 d:\lvgl\lv_sim_codeblocks_win\lv_conf.h
 	<stdint.h>
 
 1596731321 d:\lvgl\lv_sim_codeblocks_win\lvgl\lvgl.h
@@ -7130,20 +7130,20 @@
 1593526183 d:\lvgl\lv_sim_codeblocks_win\lvgl\src\lv_api_map.h
 	"../lvgl.h"
 
-1596731319 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_alpha16.c
-	"lvgl/lvgl.h"
+1596765582 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_alpha16.c
+	"../lv_examples.h"
 
-1596731319 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_argb.c
-	"lvgl/lvgl.h"
+1596765582 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_argb.c
+	"../lv_examples.h"
 
-1596731319 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_chroma_keyed.c
-	"lvgl/lvgl.h"
+1596765582 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_chroma_keyed.c
+	"../lv_examples.h"
 
-1596731319 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_indexed16.c
-	"lvgl/lvgl.h"
+1596765582 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_indexed16.c
+	"../lv_examples.h"
 
-1596731319 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_rgb.c
-	"lvgl/lvgl.h"
+1596765582 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\img_cogwheel_rgb.c
+	"../lv_examples.h"
 
 1596731319 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\lv_font_roboto_12_compr_az.c
 	"lvgl/lvgl.h"
@@ -8120,7 +8120,7 @@
 	"lv_examples/lv_examples.h"
 	<windows.h>
 
-1596765582 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\lv_demo_printer.h
+1596765454 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\lv_demo_printer.h
 	"../../lv_examples.h"
 
 1593526181 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\images\lv_demo_printer_icon_bright.c
@@ -8196,10 +8196,10 @@
 1593526181 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\images\lv_demo_printer_img_wave.c
 	"../../../lv_examples.h"
 
-1596728476 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\lv_demo_printer.c
+1596770466 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\lv_demo_printer.c
 	"lv_demo_printer_theme.h"
 
-1593526181 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\lv_demo_printer_theme.h
+1596765454 d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\lv_demo_printer_theme.h
 	"lv_demo_printer.h"
 
 1593526181 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\src\lv_demo_printer\lv_demo_printer_theme.c
@@ -8214,4 +8214,13 @@
 	<stddef.h>
 	"lv_txt.h"
 	"../lv_draw/lv_draw.h"
+
+1596765582 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\lv_font_montserrat_12_compr_az.c
+	"../lv_examples.h"
+
+1596765582 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\lv_font_montserrat_16_compr_az.c
+	"../lv_examples.h"
+
+1596765582 source:d:\lvgl\lv_sim_codeblocks_win\lv_examples\assets\lv_font_montserrat_28_compr_az.c
+	"../lv_examples.h"
 
